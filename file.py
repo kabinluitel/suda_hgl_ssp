@@ -657,9 +657,9 @@ def description():
 
         msp.add_mtext(
             "%.0f" % df.at[i, "Pipe Length"]
-            + " L.F-"
+            + "\'"
             + format(df.at[i, "Size"])
-            + " CONC. STORM SEWER PIPE CLASS III REQ'D ("
+            + " CONC. SSP CLASS III REQ'D ("
             + "%.0f" % df.at[i, "Cover"]
             + "' COVER)\P"
             + "INV(IN)="
