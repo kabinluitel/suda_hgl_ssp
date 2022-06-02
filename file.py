@@ -171,7 +171,7 @@ def description():
 
     for i in range(0, m, 1):
 
-        if df.at[i, "Str."] in grate_inlets:
+        if df.at[i, "Str."] in grate_inlets or df.at[i, "Str."] == "MH-12":
 
             df.at[i, "Top Elev"] = df.at[i, "Ground Elev"]
 
